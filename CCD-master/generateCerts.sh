@@ -4,6 +4,6 @@ rm -R crypto-config/*
 
 rm config/*
 
-./bin/configtxgen -profile TFBCOrgOrdererGenesis -outputBlock ./config/genesis.block
+./bin/configtxgen -profile CCDOrgOrdererGenesis -outputBlock ./config/genesis.block
 
-./bin/configtxgen -profile TFBCOrgChannel -outputCreateChannelTx ./config/tfbcchannel.tx -channelID tfbcchannel
+./bin/configtxgen -profile CCDOrgChannel -outputCreateChannelTx ./config/ccdchannel.tx -channelID ccdchannel
